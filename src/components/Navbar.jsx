@@ -14,6 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+      
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -22,6 +23,8 @@ const Navbar = () => {
   useEffect(() => {
     setMenuOpen(false);
     setDropdownOpen(false);
+    
+
     setPredictDropdownOpen(false);
   }, [location]);
 
@@ -115,7 +118,7 @@ const Navbar = () => {
         <ul className="flex flex-col items-center mt-20 space-y-6 text-lg">
           {[
             { name: "Home", path: "/" },
-            { name: "", path: "/" },
+            { name: "create events", path: "/" },
             { name: "", path: "/" },
             { name: "", path: "/" },
           ].map((item, index) => (
