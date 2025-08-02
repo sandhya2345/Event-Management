@@ -40,7 +40,7 @@ const Features = () => {
   const scrollingFeatures = [...features, ...features]; 
 
   return (
-    <section className="bg-white text-primary text-left pb-2 px-20">
+    <section className="bg-white text-primary text-left pb-2 px-16">
       <div className="max-w-7xl mx-auto py-8">
         <motion.h2
           className="text-4xl font-semibold mb-12 text-center"

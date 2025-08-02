@@ -42,7 +42,7 @@ const Navbar = () => {
                             { name: "Home", path: "/" },
                             { name: "Create Event", path: "/create-event" },
                             { name: "View Event", path: "/view-event" },
-                            { name: "Update Event", path: "/view-event" },
+                            { name: "Event Calendar", path: "/calendar" },
 
                         ].map((item, index) => (
                             <li key={index}>
@@ -81,7 +81,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {/* Mobile Menu Button */}
+            
                 <div className="md:hidden flex items-center">
                     <button onClick={() => setMenuOpen(!menuOpen)} className="text-primary focus:outline-none">
                         {menuOpen ? <X size={30} className="text-customTeal" /> : <Menu size={40} />}
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            {/* Mobile Menu */}
+    
             <div className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform ${menuOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out md:hidden`}>
                 <button onClick={() => setMenuOpen(false)} className="absolute top-5 right-5 text-gray-700">
                     <X size={30} />
@@ -98,7 +98,7 @@ const Navbar = () => {
                     {[
                         { name: "Home", path: "/" },
                         { name: "Create Events", path: "/create-event" },
-                        { name: "My Event", path: "/add-event" },
+                        // { name: "My Event", path: "/add-event" },
                         { name: "View Event", path: "/view-event" },
                     ].map((item, index) => (
                         <li key={index}>

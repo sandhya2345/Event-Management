@@ -4,6 +4,7 @@ import illustration from "../assets/illustration3.png";
 import Features from './Features';
 import RecentActivity from './RecentActivity';
 import Footer from '../components/Footer';
+// import { CalendarView } from "../components/CalendarView";
 
 const Home = () => {
   return (
@@ -46,7 +47,11 @@ const Home = () => {
       
       <Features />
 
+     
+
       <RecentActivity />
+
+      {/* <CalendarView/> */}
 
       <Footer/>
 

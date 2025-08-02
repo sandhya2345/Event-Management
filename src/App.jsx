@@ -9,6 +9,7 @@ import Features from "./pages/Features";
 import EventDetails from "./components/EventDetail";
 import RecentActivity from "./pages/RecentActivity";
 import Footer from "./components/Footer";
+import { CalendarView } from "./components/CalendarView";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/feature" element={<Features />} />
         <Route path="/events/:id" element={<EventDetails />} />
         <Route path="/recent-activity" element={<RecentActivity />} />
+        <Route path="/calendar" element={<CalendarView />} />
         
       </Routes>
        {/* {location.pathname === "/" && <Footer />} */}
