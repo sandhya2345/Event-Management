@@ -10,6 +10,7 @@ const Footer = () => {
                     <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
                         "Events That Speak for You!"
                     </h2>
+                    {/* this is for trying purpose */}
                     <p className="text-lg md:text-xl mt-2 text-gray-200 max-w-3xl mx-auto">
                         Delivering the best event solutions to ensure unforgettable moments.
                     </p>
