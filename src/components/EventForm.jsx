@@ -81,25 +81,25 @@ export const EventForm = () => {
                 }}
             ></div>
 
+
             <div className="relative z-10 pt-4">
                 <div className="max-w-4xl mx-auto mb-4">
-                    <div className="flex items-center gap-4">
-                        {["Title", "Description", "Venue", "Date", "Category", "Type", "Image"].map((label, index) => (
-                            <div key={index} className="flex items-center">
-                                <div
-                                    className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition 
+                    <div className="flex flex-wrap items-center justify-center gap-y-4 gap-x-2 sm:gap-x-4">                        {["Title", "Description", "Venue", "Date", "Category", "Type", "Image"].map((label, index) => (
+                        <div key={index} className="flex items-center">
+                            <div
+                                className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition 
                                         ${activeSteps[index]
-                                            ? "bg-teal-600 text-white"
-                                            : "bg-gray-50 text-gray-500"
-                                        }`}
-                                >
-                                    {index + 1}
-                                </div>
-                                {index < 6 && (
-                                    <div className="w-8 h-1 bg-gray-300 mx-1 rounded-full"></div>
-                                )}
+                                        ? "bg-teal-600 text-white"
+                                        : "bg-gray-50 text-gray-500"
+                                    }`}
+                            >
+                                {index + 1}
                             </div>
-                        ))}
+                            {index < 6 && (
+                                <div className="w-8 h-1 bg-gray-300 mx-1 rounded-full"></div>
+                            )}
+                        </div>
+                    ))}
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@ export const EventForm = () => {
                         </div>
                     </div>
 
-                
+
                     <div className="flex flex-col md:flex-row gap-4 mb-4">
                         <div className="mb-4 md:w-1/2">
                             <label className="block text-sm font-semibold text-gray-700 mb-2" htmlFor="category">
