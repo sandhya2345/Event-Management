@@ -51,7 +51,7 @@ const Footer = () => {
 
 
                 <div className="border-t border-gray-300 mt-8 pt-6 text-center text-gray-300 text-lg">
-                    © {new Date().getFullYear()} MedAhead. All Rights Reserved.
+                    © {new Date().getFullYear()} Planorama. All Rights Reserved.
                 </div>
             </div>
         </footer>
