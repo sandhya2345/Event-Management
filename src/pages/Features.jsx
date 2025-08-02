@@ -73,7 +73,7 @@ const Features = () => {
                 viewport={{ once: true }}
               >
                 <div className="mb-6">{feature.icon}</div>
-                <h3 className="text-xl font-semibold text-center text-customTeal group-hover:text-white transition-all duration-300">
+                <h3 className="text-xl font-semibold text-center text-customTeal group-hover:text-primary transition-all duration-300">
                   {feature.name}
                 </h3>
               </motion.a>

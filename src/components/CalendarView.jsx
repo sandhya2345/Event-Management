@@ -21,7 +21,7 @@ export const CalendarView = () => {
        {/* <p className="text-center text-gray-100 mb-6 max-w-2xl mx-auto">
     Welcome to the event calendar! Here you can find upcoming events and important details. Click any event for more information.
   </p> */}
-      <div className="bg-white max-w-5xl mx-auto p-6 rounded  text-primary">
+      <div className="bg-white max-w-5xl  mx-auto p-6 rounded text-primary">
         <FullCalendar
           plugins={[dayGridPlugin]}
           initialView="dayGridMonth"
