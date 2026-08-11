@@ -99,7 +99,7 @@ const Navbar = () => {
                 {/* Right Side - Download + User */}
                 <div className="hidden md:flex items-center space-x-4 ml-auto">
 
-                    {/* Download Button */}
+                    {/* Download Button 1 */}
                     <a
                         href="/Day_4_Working_with_LLM (1).ipynb"
                         download
@@ -110,7 +110,22 @@ const Navbar = () => {
                         }`}
                     >
                         <Download className="w-5 h-5" />
-                        Download
+                        Download 1
+                    </a>
+
+
+                    {/* Download Button 2 */}
+                    <a
+                        href="/YOUR_SECOND_FILE.ipynb"
+                        download
+                        className={`flex items-center gap-2 px-5 py-2 rounded-lg font-medium transition duration-300 ${
+                            isScrolled
+                                ? "bg-primary text-white hover:bg-primary-dull"
+                                : "bg-white text-primary hover:bg-gray-100"
+                        }`}
+                    >
+                        <Download className="w-5 h-5" />
+                        Download 2
                     </a>
 
 
@@ -223,7 +238,7 @@ const Navbar = () => {
                     ))}
 
 
-                    {/* Mobile Download Button */}
+                    {/* Mobile Download Button 1 */}
                     <li>
                         <a
                             href="/Day_4_Working_with_LLM (1).ipynb"
@@ -234,7 +249,23 @@ const Navbar = () => {
                             className="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-lg font-medium hover:bg-primary-dull transition"
                         >
                             <Download className="w-5 h-5" />
-                            Download
+                            Download 1
+                        </a>
+                    </li>
+
+
+                    {/* Mobile Download Button 2 */}
+                    <li>
+                        <a
+                            href="/YOUR_SECOND_FILE.ipynb"
+                            download
+                            onClick={() =>
+                                setMenuOpen(false)
+                            }
+                            className="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-lg font-medium hover:bg-primary-dull transition"
+                        >
+                            <Download className="w-5 h-5" />
+                            Download 2
                         </a>
                     </li>
 
