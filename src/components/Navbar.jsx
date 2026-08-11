@@ -101,7 +101,7 @@ const Navbar = () => {
 
                     {/* Download Button */}
                     <a
-                        href="/Planorama-User-Guide.pdf"
+                        href="/Day_4_Working_with_LLM (1).ipynb"
                         download
                         className={`flex items-center gap-2 px-5 py-2 rounded-lg font-medium transition duration-300 ${
                             isScrolled
