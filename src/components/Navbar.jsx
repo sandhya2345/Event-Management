@@ -257,7 +257,7 @@ const Navbar = () => {
                     {/* Mobile Download Button 2 */}
                     <li>
                         <a
-                            href="/article.txt"
+                            href="/movies_data_5000"
                             download
                             onClick={() =>
                                 setMenuOpen(false)
