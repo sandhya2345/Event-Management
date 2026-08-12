@@ -101,7 +101,7 @@ const Navbar = () => {
 
                     {/* Download Button 1 */}
                     <a
-                        href="/Day_4_Working_with_LLM (1).ipynb"
+                        href="/day5_vector_Store.ipynb"
                         download
                         className={`flex items-center gap-2 px-5 py-2 rounded-lg font-medium transition duration-300 ${
                             isScrolled
@@ -241,7 +241,7 @@ const Navbar = () => {
                     {/* Mobile Download Button 1 */}
                     <li>
                         <a
-                            href="/Day_4_Working_with_LLM (1).ipynb"
+                            href="/day5_vector_Store.ipynb"
                             download
                             onClick={() =>
                                 setMenuOpen(false)
