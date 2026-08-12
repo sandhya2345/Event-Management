@@ -116,7 +116,7 @@ const Navbar = () => {
 
                     {/* Download Button 2 */}
                     <a
-                        href="/article.txt"
+                        href="/movies_data_5000"
                         download
                         className={`flex items-center gap-2 px-5 py-2 rounded-lg font-medium transition duration-300 ${
                             isScrolled
