@@ -116,7 +116,7 @@ const Navbar = () => {
 
                     {/* Download Button 2 */}
                     <a
-                        href="/movies_data_5000.json"
+                        href="/Day_7_Rag_based_Chatbot.ipynb"
                         download
                         className={`flex items-center gap-2 px-5 py-2 rounded-lg font-medium transition duration-300 ${
                             isScrolled
@@ -257,7 +257,7 @@ const Navbar = () => {
                     {/* Mobile Download Button 2 */}
                     <li>
                         <a
-                            href="/movies_data_5000.json"
+                            href="/Day_7_Rag_based_Chatbot.ipynb"
                             download
                             onClick={() =>
                                 setMenuOpen(false)
