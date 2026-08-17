@@ -10,6 +10,7 @@ import EventDetails from "./components/EventDetail";
 import RecentActivity from "./pages/RecentActivity";
 import Footer from "./components/Footer";
 import { CalendarView } from "./components/CalendarView";
+import Content from "./components/Content";
 
 function App() {
   const location = useLocation();
@@ -29,6 +30,8 @@ function App() {
         <Route path="/events/:id" element={<EventDetails />} />
         <Route path="/recent-activity" element={<RecentActivity />} />
         <Route path="/calendar" element={<CalendarView />} />
+        <Route path="/content" element={<Content />} />
+
         
       </Routes>
        {/* {location.pathname === "/" && <Footer />} */}
