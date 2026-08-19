@@ -55,7 +55,7 @@ const Content = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-primary pt-32 pb-16 px-6">
+        <div className="hidden min-h-screen bg-primary pt-32 pb-16 px-6">
 
             {/* Header */}
             <div className="max-w-6xl mx-auto text-center mb-12">
