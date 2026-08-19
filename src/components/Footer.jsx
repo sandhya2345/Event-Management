@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Heart } from "lucide-react";
 
 const Footer = () => {
     return (
-        <footer className="bg-midTeal h-full text-white py-16">
+        <footer className="border-t border-gray-400 bg-midTeal h-full text-white py-16">
             <div className="container mx-auto px-6 md:px-12 lg:px-16">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
